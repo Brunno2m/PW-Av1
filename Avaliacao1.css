@@ -55,9 +55,13 @@ body {
     display: flex;
     background-color: whitesmoke;
     justify-content: center;
-    border-radius: 25px;
+    border-radius: 15px;
     vertical-align: auto;
     
+}
+
+.main h1{
+    text-align: center;
 }
 
 
