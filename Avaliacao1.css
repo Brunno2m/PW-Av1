@@ -15,12 +15,27 @@ body {
     background-color: rgb(39, 38, 38);
     border-radius: 15px;
     color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    
     
 }
 
-img {
+.Cabeçalho h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.Cabeçalho img {
+    padding-right: 3rem;
     max-width:60px;
     height:auto;
     margin-left: 0%;
     justify-content:safe;
-    }
+}
+
+
