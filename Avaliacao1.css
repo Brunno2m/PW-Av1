@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: darkgray;
+    background-color:grey;
     margin: 100;
     padding: 100;
     display:flexbox;
@@ -47,6 +47,8 @@ body {
     color: aliceblue;
     border-radius: 15px;
     
+    
+    
 
 }
 
@@ -62,6 +64,20 @@ body {
 
 .main h1{
     text-align: center;
+}
+
+a:hover {
+    color: black;
+    background-color: whitesmoke;
+    text-decoration: underline;
+    
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 5px 10px;
+    
 }
 
 
