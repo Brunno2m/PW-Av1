@@ -58,7 +58,7 @@ body {
     background-color: whitesmoke;
     justify-content: center;
     border-radius: 15px;
-    vertical-align: auto;
+    
     
 }
 
@@ -78,6 +78,19 @@ a {
     text-decoration: none;
     padding: 5px 10px;
     
+}
+
+.servicos{
+    margin: auto;
+    padding-top: 3px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    display: block;
+    text-align: left;
+    background-color: rgb(39,38,38);
+    background-size: auto;
+    color: aliceblue;
+    border-radius: 15px;
 }
 
 
