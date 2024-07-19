@@ -59,14 +59,14 @@ body {
 .main h2{
     text-align:justify;
     margin: auto;
-    padding: 15px;
+    padding: 3rem;
     
 }
 .main p{
     
     text-align:justify;
     text-indent: 30px;
-    padding: 15px;
+    padding: 3rem;
 }
 a:hover {
     color:antiquewhite;
@@ -81,9 +81,7 @@ a {
 
 .servicos{
     margin: auto;
-    padding-top: 3px;
-    padding-left: 15px;
-    padding-bottom: 5px;
+    padding: 3rem;
     display: block;
     text-align: left;
     background-color: whitesmoke;
@@ -99,10 +97,49 @@ a {
 .rodape{
     display: flex;
     background-color: rgb(39, 38, 38);
-    color: aliceblue;
+    color: rgb(125, 125, 126);
     border-radius: 15px;
     justify-content: center;
     padding: auto;
     
 }
+.title{
+    justify-content: center;
+    text-align: center;
+    
+}
 
+.form{
+    display: flex;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.login-button button {
+    background-color: rgb(39,38,38);
+    color: aliceblue;
+    display:flex;
+    border-radius: 5px;
+    width: 100%;
+    justify-content: center;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem, 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+
+}
+.input-box input:hover {
+    background-color: rgb(216, 216, 216);
+    border-radius: 5px;
+
+}
