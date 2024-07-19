@@ -57,8 +57,16 @@ body {
     padding: auto;
 }
 .main h2{
-    text-align: justify;
+    text-align:justify;
     margin: auto;
+    padding: 15px;
+    
+}
+.main p{
+    
+    text-align:justify;
+    text-indent: 30px;
+    padding: 15px;
 }
 a:hover {
     color:antiquewhite;
